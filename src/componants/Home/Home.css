@@ -1,0 +1,23 @@
+.Homeall{
+    background-color: rgb(26,188,156);
+}
+.text::after{
+    content: '';
+    position: absolute;
+    bottom: 132px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+.text::before{
+    content: '';
+    position: absolute;
+    bottom: 132px;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}

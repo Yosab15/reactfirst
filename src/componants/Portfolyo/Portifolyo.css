@@ -1,0 +1,74 @@
+.por{
+    height: 120vh;
+}
+.por-head{
+   
+    padding-top: 10px;
+ 
+}
+.por .por-head::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 160px;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: black;
+}
+.por .por-head::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 160px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: black;
+}
+.por .por-head i{
+    color: black;
+}
+.por .row
+{
+padding-top: 10px;
+}
+.card .layer{
+    background-color: rgb(26,188,156);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    
+}
+.card:hover .layer{
+    opacity: 0.9;
+    transition: all 0.5s ease-in-out;
+}
+
+.innerdev{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+   
+}
+.innerdev img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+

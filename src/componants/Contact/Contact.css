@@ -1,0 +1,42 @@
+.contact .contact-head{
+    position: relative;
+}
+.contact .contact-head i{
+    color: black;
+}
+.contact .contact-head::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 70px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: black;
+}
+.contact .contact-head::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 70px;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: black;
+}
+.contact-info .buttom .btn1{
+ background-color: rgb(26,188,156);
+    border: none;
+   
+}
+/* .contact-info .inputs{
+    border-bottom: 1px solid rgb(26,188,156);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+} */

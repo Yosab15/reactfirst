@@ -1,0 +1,43 @@
+.about{
+    background-color: rgb(26,188,156);
+    height: 80vh;
+    padding-top: 170px;
+}
+.about .inner{
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.about .head{
+   
+    color: white;
+}
+.head-ico{
+    font-size: 1rem;
+    color: white;
+}
+.about .inner .head::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 105px;
+    left: 32%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+.about .head::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 105px;
+    right: 10%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
